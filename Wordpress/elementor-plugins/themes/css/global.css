@@ -3,6 +3,7 @@ body.theme-daltonismo {
   font-family: Arial, sans-serif;
   background-color: #ffffff; /* Fondo blanco */
   color: #000; /* Color de texto negro */
+  font-size: 1.2em; /* Tamaño de texto adecuado */
 }
 
 body.theme-daltonismo a {
@@ -28,7 +29,7 @@ body.theme-bajavision {
   font-family: Arial, sans-serif;
   background-color: #000; /* Fondo negro */
   color: #fff; /* Color de texto blanco */
-  font-size: 1.5em; /* Texto más grande */
+  font-size: 1.75em; /* Texto más grande */
 }
 
 body.theme-bajavision a {
@@ -55,6 +56,7 @@ body.theme-dislexia {
   background-color: #f0e68c; /* Fondo suave */
   color: #000; /* Color de texto negro */
   line-height: 1.6;
+  font-size: 1.25em; /* Tamaño de texto adecuado */
 }
 
 body.theme-dislexia a {
@@ -80,6 +82,7 @@ body.theme-fotofobia {
   font-family: Arial, sans-serif;
   background-color: #2e2e2e; /* Fondo oscuro */
   color: #e0e0e0; /* Color de texto claro */
+  font-size: 1.2em; /* Tamaño de texto adecuado */
 }
 
 body.theme-fotofobia a {
@@ -131,6 +134,7 @@ body.theme-glaucoma {
   font-family: Arial, sans-serif;
   background-color: #d3d3d3; /* Fondo gris claro */
   color: #000; /* Color de texto negro */
+  font-size: 1.2em; /* Tamaño de texto adecuado */
 }
 
 body.theme-glaucoma a {
