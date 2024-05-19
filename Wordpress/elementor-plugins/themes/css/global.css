@@ -1,17 +1,68 @@
-/* Estilos generales para Dislexia */
-body.theme-dislexia {
-  font-family: "Comic Sans MS", sans-serif; /* Fuente amigable para dislexia */
-  background-color: #f0e68c; /* Fondo suave */
-  color: #000; /* Color de texto */
-  line-height: 1.6; /* Mayor interlineado */
+```css
+/* Estilos generales para Daltonismo */
+body.theme-daltonismo {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* Fondo blanco */
+  color: #000; /* Color de texto negro */
 }
 
-body.theme-dislexia a {
-  color: #0000ee; /* Color de enlace */
+body.theme-daltonismo a {
+  color: #0000ee; /* Color de enlace azul */
   text-decoration: underline; /* Subrayado */
 }
 
-/* Ejemplo de ajustes adicionales específicos */
+body.theme-daltonismo .custom-button {
+  background-color: #008cba; /* Botón azul */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body.theme-daltonismo .custom-button:hover {
+  background-color: #005f6b;
+}
+
+/* Estilos generales para Baja Visión */
+body.theme-bajavision {
+  font-family: Arial, sans-serif;
+  background-color: #000; /* Fondo negro */
+  color: #fff; /* Color de texto blanco */
+  font-size: 1.5em; /* Texto más grande */
+}
+
+body.theme-bajavision a {
+  color: #00ff00; /* Color de enlace verde */
+  text-decoration: underline; /* Subrayado */
+}
+
+body.theme-bajavision .custom-button {
+  background-color: #00ff00; /* Botón verde */
+  color: black;
+  padding: 15px 30px; /* Botones más grandes */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body.theme-bajavision .custom-button:hover {
+  background-color: #009900;
+}
+
+/* Estilos generales para Dislexia */
+body.theme-dislexia {
+  font-family: "Comic Sans MS", sans-serif;
+  background-color: #f0e68c; /* Fondo suave */
+  color: #000; /* Color de texto negro */
+  line-height: 1.6;
+}
+
+body.theme-dislexia a {
+  color: #0000ee; /* Color de enlace azul */
+  text-decoration: underline; /* Subrayado */
+}
+
 body.theme-dislexia .custom-button {
   background-color: #008cba; /* Botón azul */
   color: white;
@@ -24,3 +75,106 @@ body.theme-dislexia .custom-button {
 body.theme-dislexia .custom-button:hover {
   background-color: #005f6b;
 }
+
+/* Estilos generales para Fotofobia */
+body.theme-fotofobia {
+  font-family: Arial, sans-serif;
+  background-color: #2e2e2e; /* Fondo oscuro */
+  color: #e0e0e0; /* Color de texto claro */
+}
+
+body.theme-fotofobia a {
+  color: #1e90ff; /* Color de enlace azul claro */
+  text-decoration: underline; /* Subrayado */
+}
+
+body.theme-fotofobia .custom-button {
+  background-color: #1e90ff; /* Botón azul claro */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body.theme-fotofobia .custom-button:hover {
+  background-color: #104e8b;
+}
+
+/* Estilos generales para Presbicia */
+body.theme-presbicia {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* Fondo blanco */
+  color: #000; /* Color de texto negro */
+  font-size: 1.75em; /* Texto aún más grande */
+}
+
+body.theme-presbicia a {
+  color: #ff4500; /* Color de enlace naranja */
+  text-decoration: underline; /* Subrayado */
+}
+
+body.theme-presbicia .custom-button {
+  background-color: #ff4500; /* Botón naranja */
+  color: white;
+  padding: 20px 40px; /* Botones más grandes */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body.theme-presbicia .custom-button:hover {
+  background-color: #cc3700;
+}
+
+/* Estilos generales para Glaucoma */
+body.theme-glaucoma {
+  font-family: Arial, sans-serif;
+  background-color: #d3d3d3; /* Fondo gris claro */
+  color: #000; /* Color de texto negro */
+}
+
+body.theme-glaucoma a {
+  color: #008080; /* Color de enlace teal */
+  text-decoration: underline; /* Subrayado */
+}
+
+body.theme-glaucoma .custom-button {
+  background-color: #008080; /* Botón teal */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body.theme-glaucoma .custom-button:hover {
+  background-color: #004d4d;
+}
+
+/* Estilos generales para Retinopatía Diabética */
+body.theme-retinopatia {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* Fondo gris claro */
+  color: #000; /* Color de texto negro */
+  font-size: 1.5em; /* Texto más grande */
+}
+
+body.theme-retinopatia a {
+  color: #8b0000; /* Color de enlace rojo oscuro */
+  text-decoration: underline; /* Subrayado */
+}
+
+body.theme-retinopatia .custom-button {
+  background-color: #8b0000; /* Botón rojo oscuro */
+  color: white;
+  padding: 15px 30px; /* Botones más grandes */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body.theme-retinopatia .custom-button:hover {
+  background-color: #550000;
+}
+```
