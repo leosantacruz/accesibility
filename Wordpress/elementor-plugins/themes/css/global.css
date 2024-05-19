@@ -1,0 +1,26 @@
+/* Estilos generales para Dislexia */
+body.theme-dislexia {
+  font-family: "Comic Sans MS", sans-serif; /* Fuente amigable para dislexia */
+  background-color: #f0e68c; /* Fondo suave */
+  color: #000; /* Color de texto */
+  line-height: 1.6; /* Mayor interlineado */
+}
+
+body.theme-dislexia a {
+  color: #0000ee; /* Color de enlace */
+  text-decoration: underline; /* Subrayado */
+}
+
+/* Ejemplo de ajustes adicionales específicos */
+body.theme-dislexia .custom-button {
+  background-color: #008cba; /* Botón azul */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body.theme-dislexia .custom-button:hover {
+  background-color: #005f6b;
+}
